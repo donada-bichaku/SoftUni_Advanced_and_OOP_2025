@@ -1,3 +1,4 @@
+# Imports are only valid for Judge with the required path (use make source root to test)
 from project.computer_types.desktop_computer import DesktopComputer
 from project.computer_types.laptop import Laptop
 
@@ -37,4 +38,3 @@ class ComputerStoreApp:
         self.warehouse.remove(computer)
 
         return f"{computer} sold for {client_budget}$."
-
